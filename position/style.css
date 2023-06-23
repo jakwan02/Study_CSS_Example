@@ -1,0 +1,58 @@
+body, div {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper > div {
+  width: 100px;
+  height: 100px;
+  background: #222;
+  z-index: 0;
+}
+.wrapper > div:not(.last) {
+  margin-bottom: 10px;
+}
+.wrapper .relative {
+  position: relative;
+  background: #d9d9;
+}
+.wrapper .absolute {
+  position: absolute;
+  background: #d9d9d9;
+  margin: 0;
+  top: calc(100px + 10px);
+  left: 110px;
+}
+.wrapper .fixed {
+  position: fixed;
+  background: #7d2;
+  top: 0;
+  left: 110px;
+}
+.wrapper .fixed:after {
+  content: "고정";
+  position: absolute;
+  font-size: 18px;
+  line-height: 18px;
+  top: 41px;
+  left: 32px;
+}
+.wrapper .static {
+  position: static;
+  background: #9a8;
+  margin-top: 10px;
+}
+.wrapper .sticky {
+  position: sticky;
+  background: #b6b;
+  top: 0;
+}
+.wrapper .scroll {
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+  height: 3000px;
+  background: rgba(0, 0, 0, 0.1);
+}

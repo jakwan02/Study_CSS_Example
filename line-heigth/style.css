@@ -1,0 +1,40 @@
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#header {
+  max-width: 1440px;
+  min-width: 550px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#header .logo {
+  display: inline-block;
+}
+#header .logo h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 48px;
+}
+#header .nav ul {
+  display: flex;
+}
+#header .nav ul li {
+  margin: 0 20px;
+  letter-spacing: -0.1em;
+  font-size: 18px;
+  line-height: 24px;
+}
+#header .nav-right ul {
+  display: flex;
+}
+#header .nav-right ul li {
+  margin: 0 20px;
+  letter-spacing: -0.1em;
+  font-size: 18px;
+  line-height: 24px;
+}

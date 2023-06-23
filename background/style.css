@@ -1,0 +1,14 @@
+.background:after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(/background/img/icon-outlink.svg);
+  background-size: 100% auto;
+  background-image: no-repeat;
+}
+.img {
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+}

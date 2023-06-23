@@ -1,0 +1,30 @@
+.block div {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 10px solid #333;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: #d9d9d9;
+  margin: 50px;
+}
+.inline div {
+  box-sizing: content-box;
+  padding: 10px;
+  border: 10px solid #333;
+  display: inline;
+  width: 100px;
+  height: 100px;
+  background: #d9d9d9;
+  margin: 50px;
+}
+.inline-block div {
+  box-sizing: content-box;
+  padding: 10px;
+  border: 10px solid #333;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #d9d9d9;
+  margin: 50px;
+}
