@@ -8,3 +8,45 @@
   border: 1px solid #b2b2b2;
   border-radius: 10px;
 }
+.droplist2 {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #fff;
+  border: 1px solid #b2b2b2;
+  border-radius: 10px;
+}
+.droplist2:focus:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 196px;
+  height: 80px;
+  border: 1px solid #b2b2b2;;
+}
+.droplist3 {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #fff;
+  border: 1px solid #b2b2b2;
+  border-radius: 10px;
+}
+.droplist3 .newList3 {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 196px;
+  height: 80px;
+  border: 1px solid #b2b2b2;
+}
+.droplist3 .newList3.active {
+  display: inline-block;
+}

@@ -21,3 +21,9 @@ droplist.addEventListener('click', (e) => {
     display = true;
   }
 });
+
+const droplist3 = document.getElementsByClassName("droplist3")[0];
+droplist3.addEventListener('focus', () => {
+  const newList3 = document.getElementsByClassName("newList3")[0];
+  newList3.classList.add('active');
+});
