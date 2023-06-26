@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SamsungOneKorean';
+  src: url(/static/samsungone-cufonfonts/SamsungOne-400.ttf);
+  src: url(/static/samsungone-cufonfonts/SamsungOne-700.ttf);
+  src: url(/static/samsungone-cufonfonts/SamsungSharpSans-Bold.ttf);
+}
+div {
+  font-size: 48px;
+  font-family: SamsungOneKorean;
+}
